@@ -16,9 +16,8 @@ sphinx:
 python:
   install:
     - method: pip
-      path: .  # 指向含空 setup.py 的目录
-      args:
-        - install
+      path: .  # 项目根目录需有空 setup.py 占位文件
+      extra_requirements:
         - recommonmark
         - sphinx_markdown_tables
 # Optionally, but recommended,
