@@ -1,5 +1,9 @@
 from setuptools import setup
 setup(
-    name="demo",  # 项目名称（自定义）
-    version="0.1.0",  # 版本号
+    name="demo",
+    version="0.1.0",
+    install_requires=[  # 核心依赖
+        "recommonmark",
+        "sphinx_markdown_tables"
+    ]
 )
