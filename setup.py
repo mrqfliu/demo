@@ -9,4 +9,5 @@ setup(
             "sphinx_markdown_tables",
             "sphinx_rtd_theme>=2.0.0",
         ]
+    },  # 注意此处是闭合的 } 和逗号
 )
