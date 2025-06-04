@@ -16,10 +16,11 @@ sphinx:
 python:
   install:
     - method: pip
+      path: .  # 指向含空 setup.py 的目录
       args:
         - install
         - recommonmark
-        - sphinx_markdown_tables 
+        - sphinx_markdown_tables
 # Optionally, but recommended,
 # declare the Python requirements required to build your documentation
 # See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
